@@ -1,0 +1,75 @@
+[GAME]
+{
+	MapName=ArcticPlainsV2.1;
+	StartposType=2;
+	GameType=Sunrise Episode 3 - To Reach the Sky;
+	IsHost=1;
+	OnlyLocal=1;
+	MyPlayerName=Ada;
+	[MODOPTIONS]
+	{
+		noceasefire=1;
+	}
+	[PLAYER0]
+	{
+		Name=Ada;
+		Team=0;
+	}
+	[AI0]
+	{
+		Name=Empire;
+		ShortName=CAI;
+		Team=1;
+		Host=0;
+	}
+	[AI1]
+	{
+		Name=Valhalla;
+		ShortName=CAI;
+		Team=2;
+		Host=0;
+	}
+	[AI2]
+	{
+		Name=IVL;
+		ShortName=NullAI;
+		Team=3;
+		Host=0;
+	}
+	[TEAM0]
+	{
+		TeamLeader=0;
+		AllyTeam=0;
+		RGBColor=0.004024717 0.9130986 0.8962694;
+	}
+	[TEAM1]
+	{
+		TeamLeader=0;
+		AllyTeam=1;
+		RGBColor=1 0.2501583 0;
+	}
+	[TEAM2]
+	{
+		TeamLeader=0;
+		AllyTeam=2;
+		RGBColor=0 0.5271151 1;
+	}
+	[TEAM3]
+	{
+		TeamLeader=0;
+		AllyTeam=1;
+		RGBColor=0.5271151 0 1;
+	}
+	[ALLYTEAM0]
+	{
+		NumAllies=0;
+		StartRectTop=0;		StartRectBottom=0;		StartRectLeft=1;		StartRectRight=1;	}
+	[ALLYTEAM1]
+	{
+		NumAllies=0;
+		StartRectTop=0;		StartRectBottom=0;		StartRectLeft=1;		StartRectRight=1;	}
+	[ALLYTEAM2]
+	{
+		NumAllies=0;
+		StartRectTop=0;		StartRectBottom=0;		StartRectLeft=1;		StartRectRight=1;	}
+}

@@ -114,7 +114,7 @@ And Machine set upon his enemies, and made war with them.]]}},
 		}},
 	},
 	prologue1_mission = {
-		{"CustomAction", function() WG.MissionLauncher.LaunchMission("prologue1",
+		{"CustomAction", function() WG.CampaignHandler.LaunchMission("prologue1",
 			function(results)
 				if (results.result == "victory") then
 					WG.VisualNovel.StartScript("prologue1_outro_win")

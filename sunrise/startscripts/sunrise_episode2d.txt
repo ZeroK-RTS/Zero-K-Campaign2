@@ -1,0 +1,58 @@
+[GAME]
+{
+	MapName=Chicken_Farm_v02;
+	StartposType=2;
+	GameType=Sunrise Episode 2D - Gallus Ranch;
+	IsHost=1;
+	OnlyLocal=1;
+	MyPlayerName=Ada;
+	[MODOPTIONS]
+	{
+		speedchicken=1;
+	}
+	[PLAYER0]
+	{
+		Name=Ada;
+		Team=0;
+	}
+	[AI0]
+	{
+		Name=Dynasty;
+		ShortName=CAI;
+		Team=1;
+		Host=0;
+	}
+	[AI1]
+	{
+		Name=Chickens;
+		ShortName=Chicken: Very Easy;
+		Team=2;
+		Host=0;
+	}
+	[TEAM0]
+	{
+		TeamLeader=0;
+		AllyTeam=0;
+		RGBColor=0.004024717 0.9130986 0.8962694;
+	}
+	[TEAM1]
+	{
+		TeamLeader=0;
+		AllyTeam=0;
+		RGBColor=1 0.5271151 0;
+	}
+	[TEAM2]
+	{
+		TeamLeader=0;
+		AllyTeam=1;
+		RGBColor=0.5647115 0 1;
+	}
+	[ALLYTEAM0]
+	{
+		NumAllies=0;
+		StartRectTop=0;		StartRectBottom=0;		StartRectLeft=1;		StartRectRight=1;	}
+	[ALLYTEAM1]
+	{
+		NumAllies=0;
+		StartRectTop=0;		StartRectBottom=0;		StartRectLeft=1;		StartRectRight=1;	}
+}

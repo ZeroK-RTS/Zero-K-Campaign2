@@ -33,7 +33,7 @@ local missions = {
 }
 
 for missionName, missionData in pairs(missions) do
-	missionData.startscript = "startscripts/" .. "sunrise_" .. missionName .. ".txt"	
+	missionData.startscript = "startscripts/" .. "sunrise_" .. missionName .. ".lua"	
 end
 
 return missions

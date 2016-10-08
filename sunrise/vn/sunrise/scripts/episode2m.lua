@@ -53,7 +53,7 @@ local scripts = {
 	},
 	
 	episode2m_mission = {
-		{"CustomAction", function() WG.MissionLauncher.LaunchMission("episode2m",
+		{"CustomAction", function() WG.CampaignHandler.LaunchMission("episode2m",
 			function(results)
 				if (results.result == "victory") then
 					WG.VisualNovel.StartScript("episode2m_outro_win")

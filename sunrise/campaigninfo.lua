@@ -6,7 +6,7 @@ return {
 	difficulty = "Medium",
 	version = "0.2",
 	order = 1,
-	mod = "rapid://zk:stable",
+	game = "zk:stable",
 	--vnDir = "vn",
 	description = [[The official campaign for Zero-K.
 	

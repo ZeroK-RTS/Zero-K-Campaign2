@@ -245,7 +245,7 @@ local scripts = {
 		{"AddText", {speakerID = "sophia", textID = "episode1_outro44", text = "That's the only other useful thing I managed to pull from this. Apparently there's a derelict dropship that crashed just a few hundred kilometers away, sometime after your stasis. If we're lucky, it might still be salvageable."}},
 		{"AddText", {speakerID = "ada", textID = "episode1_outro45", text = "Well, what are we waiting for? Let's go."}},
 		{"AddBackground", {file = "images/bg/blank.png", animation = {type="dissolve", time = 2}}},
-		{"PlaySound", "sfx/reply/heavy_bot_move.wav.wav"},
+		{"PlaySound", "sfx/reply/heavy_bot_move.wav"},
 		{"Wait", 1},
 		{"AddText", {textID = "episode1_outro47", text = "..."}},
 		{"AddText", {speakerID = "ada", textID = "episode1_outro47", text = "Damn. She's magnificent."}},

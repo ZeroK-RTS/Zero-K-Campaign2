@@ -36,6 +36,15 @@ return {
 		["AllyTeam"] = 2,
 		["RGBColor"] = [[0 1 0]],
 	},
+	["allyTeam0"] = {
+		["NumAllies"] = 0,
+	},
+	["allyTeam1"] = {
+		["NumAllies"] = 0,
+	},
+	["allyTeam2"] = {
+		["NumAllies"] = 0,
+	},
 	["modoptions"] = {
 		["noceasefire"] = [[1]],
 	},

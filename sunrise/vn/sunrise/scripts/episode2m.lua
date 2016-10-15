@@ -48,7 +48,7 @@ local scripts = {
 		{"AddText", {textID = "skipMission", text = "Skip this mission?", wait = false}},
 		{"ChoiceDialog", {
 			{text = "Yes", action = function() scriptFunctions.JumpScript("episode2m_outro_win") end },
-			{text = "No", action = function() scriptFunctions.JumpScript("episode2_mission") end },
+			{text = "No", action = function() scriptFunctions.JumpScript("episode2m_mission") end },
 		}},
 	},
 	
